@@ -13,4 +13,4 @@ ENV CADDYPATH=/etc/caddy/crypto
 EXPOSE 80 443
 
 ENTRYPOINT ["/usr/local/bin/caddy"]
-CMD ["--conf", "/etc/caddy/Caddyfile"]
+CMD ["-conf", "/etc/caddy/Caddyfile", "-agree"]
