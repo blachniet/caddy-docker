@@ -1,5 +1,7 @@
 FROM alpine:3.4
 
+RUN apk add --no-cache ca-certificates
+
 ADD ./caddy /usr/local/bin/
 ADD ./Caddyfile /etc/caddy/Caddyfile
 ADD ./README.md /srv/index.md
