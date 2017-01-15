@@ -1,6 +1,4 @@
-FROM alpine:3.4
-
-RUN apk add --no-cache ca-certificates
+FROM blachniet/goalpine:3.5
 
 ADD ./caddy /usr/local/bin/
 ADD ./Caddyfile /etc/caddy/Caddyfile
