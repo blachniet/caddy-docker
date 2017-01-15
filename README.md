@@ -16,3 +16,13 @@ This image sets the `CADDYPATH` to `/etc/caddy/crypto`. This is where [caddy sto
 certificates and private keys](https://caddyserver.com/docs/automatic-https#the-caddy-folder).
 You can persist these across container runs this line.
 `-v $HOME/caddy/crypto:/etc/caddy/crypto`.
+
+## Included Features
+
+- Server
+  - [ ] DNS
+  - [X] HTTP
+- Directives/Middleware
+  - *none*
+- DNS Providers
+  - *none*
