@@ -1,4 +1,4 @@
-FROM blachniet/goalpine:3.5
+FROM blachniet/goalpine:3.6
 
 ADD ./caddy /usr/local/bin/
 ADD ./Caddyfile /etc/caddy/Caddyfile
